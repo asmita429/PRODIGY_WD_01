@@ -1,0 +1,43 @@
+body {
+    margin:0;
+}
+
+.test {
+  background-color: rgb(0, 180, 21);
+}
+
+nav {
+  overflow: scroll;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+}
+
+header.scrolled{
+    background-color: aqua;
+    opacity: 0.98;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background: #deff05;
+  color: black;
+}
+
+p {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
